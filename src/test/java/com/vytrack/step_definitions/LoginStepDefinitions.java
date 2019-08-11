@@ -31,7 +31,7 @@ public class LoginStepDefinitions {
 
     @Then("user logs in with {string} username and {string} password")
     public void user_logs_in_with_username_and_password(String string, String string2) {
-       pages.loginPage().login(string, string2);
+        pages.loginPage().login(string, string2);
     }
 
     @Then("user verifies that {string} warning message is displayed")
@@ -42,7 +42,7 @@ public class LoginStepDefinitions {
     //this is temporary solution until we start using hooks
     @Then("user quits")
     public void user_quits() {
-       Driver.closeDriver();
+        Driver.closeDriver();
     }
 
     @Then("user logs in as a driver")

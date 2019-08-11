@@ -86,3 +86,4 @@ public class LoginPage {
         Driver.getDriver().get(ConfigurationReader.getProperty("url" + ConfigurationReader.getProperty("environment")));
     }
 }
+
